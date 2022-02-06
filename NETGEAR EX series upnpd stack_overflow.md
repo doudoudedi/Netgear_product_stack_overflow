@@ -93,7 +93,10 @@ The manufacturer has issued relevant announcements：
 ​	https://kb.netgear.com/000064615/Security-Advisory-for-Pre-Authentication-Command-Injection-on-EX6100v1-and-Pre-Authentication-Stack-Overflow-on-Multiple-Products-PSV-2021-0282-PSV-2021-0288?article=000064615
 
 **On October 1, 2021, the loopholes were discovered and the report was written**
+
 **On October 7, 2021, a vulnerability report was submitted,**
+
 **On February 4, 2022, the manufacturer issued an announcement**
+
 **On February 6, 2022, the vulnerability was disclosed on GitHub**
 
