@@ -4,7 +4,7 @@
 
 ![image-20220214142158985](./img/image-20220214142158985.png)
 
- 	**So we can overlay the return address of the stack overflow function. At that time, we thought about mips-rop, but the 00 character blocked me, so we thought of arranging shellcode on the stack, but ASLR, so I didn't know the stack address. Finally, I chose the utilization method of ret2text to succeed**
+​	**So we can overlay the return address of the stack overflow function. At that time, we thought about mips-rop, but the 00 character blocked me, so we thought of arranging shellcode on the stack, but ASLR, so I didn't know the stack address. Finally, I chose the utilization method of ret2text to succeed**
 
 ​	**Firstly, I chose 0x422850 as the address of stack overflow hijacking. Since MIPS CPU is a multi-level pipeline, you can see that A0 is set as the parameter of system function later, and the parameters are stored on the stack and can be controlled.**
 
