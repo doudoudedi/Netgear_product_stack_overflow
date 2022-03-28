@@ -1,4 +1,4 @@
-# NETGEAR_stack_overflow
+# CVE-2022-24655: NETGEAR_stack_overflow
 
 
 
@@ -22,7 +22,7 @@ Link:
 
 ​	https://www.downloads.netgear.com/files/GDC/CAX80/CAX80-V2.1.2.6.zip
 
-​	...
+​	https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24655
 
 #### Describ
 
