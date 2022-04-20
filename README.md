@@ -75,5 +75,5 @@ if __name__=="__main__":
 	attack()
 ```
 示列
-![image-20220420111910096](/Users/doudou/Library/Application Support/typora-user-images/image-20220420111910096.png)
+![image-20220420111910096](./img/image-20220420111910096.png)
 
