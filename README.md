@@ -74,6 +74,6 @@ if __name__=="__main__":
 	generate_payload()
 	attack()
 ```
-示列
+example
 ![image-20220420111910096](./img/image-20220420111910096.png)
 
